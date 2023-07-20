@@ -29,8 +29,8 @@ jobs:
         with:
           tool-cache: true
           dotnet: true
-          swap-storage: true
-          large-packages: false
+          swap-storage: false
+          large-packages: true
 
       - name: Remove exec_depend
         uses: autowarefoundation/autoware-github-actions/remove-exec-depend@v1
