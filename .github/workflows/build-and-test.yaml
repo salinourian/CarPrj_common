@@ -27,7 +27,7 @@ jobs:
       - name: Free disk space (Ubuntu)
         uses: jlumbroso/free-disk-space@v1.2.0
         with:
-          tool-cache: false
+          tool-cache: true
           dotnet: true
           swap-storage: false
           large-packages: false
