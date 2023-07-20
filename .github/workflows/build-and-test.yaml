@@ -28,7 +28,7 @@ jobs:
         uses: jlumbroso/free-disk-space@v1.2.0
         with:
           tool-cache: false
-          dotnet: false
+          dotnet: true
           swap-storage: false
           large-packages: false
 
